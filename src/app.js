@@ -9,7 +9,6 @@ import Web from './components/Web.vue'
 import Mobile from './components/Mobile.vue'
 import Game from './components/Game.vue'
 import { Carousel3d, Slide } from 'vue-carousel-3d';
-import { VueReCaptcha } from 'vue-recaptcha-v3'
 
 export default {
   name: 'App',
@@ -24,7 +23,6 @@ export default {
     Web,
     Mobile,
     Game,
-    VueReCaptcha,
     Carousel3d,
     Slide
   }

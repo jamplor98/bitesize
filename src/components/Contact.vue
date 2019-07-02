@@ -33,9 +33,7 @@
 				<input type="text" name="email" placeholder="Email"> <br>
 				<input type="text" name="subject" placeholder="Subject"> <br>
 				<textarea rows="12" col="10" name="message" placeholder="Message"> </textarea>
-				 <vue-recaptcha sitekey="6LeE-qoUAAAAAJH8K2YJIk-bxzIgcYHTUXFTTBbc">
-					<button class="btnsend" @click="recaptcha()">Submit</button>
-	  			</vue-recaptcha>
+				  <vue-recaptcha sitekey="6LeE-qoUAAAAAJH8K2YJIk-bxzIgcYHTUXFTTBbc"></vue-recaptcha>
   			</div>
 			
 		</div>	
@@ -44,6 +42,7 @@
 </template>
 
 <script type="text/javascript">
+import VueRecaptcha from 'vue-recaptcha'
 	export default{
 		el: 'myTopnav', 
 		data() {
@@ -65,7 +64,8 @@
 		        console.log(token) // Will print the token
 		      })
 		    }
-		}
+		},
+    	components: { VueRecaptcha }
 	};
 </script>
 <style scoped>
