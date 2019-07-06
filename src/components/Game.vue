@@ -65,7 +65,26 @@
 	
  </div>
 </template>
-<script type="text/javascript"></script>
+<script type="text/javascript">
+		// 	export default{
+	// 	el: 'myTopnav', 
+	// 	data() {
+	// 		return{
+	// 		 isActive: '',
+	// 		}
+ 		
+	// 	},
+	// 	methods:{
+	// 		btnactive(activengaba){
+	// 			this.isActive= 'isActive'
+		
+	// 		},
+	// 		btnclose(close){
+	// 			this.isActive = ''
+	// 		}
+	// 	}
+	// };
+</script>
 <style scoped>
 body{
 	font-family: Montserrat;
@@ -152,7 +171,7 @@ hr{
 }
 .pics{
 	background-color: #fff !important;
-	height: 395px;
+	height: 453px;
 
 }
 

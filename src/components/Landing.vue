@@ -32,10 +32,10 @@
 				<br> <a class="bs2">BITESIZE DIGITAL GROUP INC.</a>	
 		</div>
 			<div class="footer1">
-			 <img class="addr" src="@/assets/addr.png">	<a class="addrtxt">Cebu City,Cebu, Philippines</a>
+			 <img class="addr" src="@/assets/addr.png">	<a class="addrtxt">Cebu City , Philippines</a>
 			 </div> 
 			 <div class="footer2">
-			 <img class="phone" src="@/assets/phone.png">	<a class="phonetxt">+639-17-325-6639</a>
+			 <img class="phone" src="@/assets/phone.png">	<a class="phonetxt">+63917-325-6639</a>
 			 </div> 	
 			 <div class="footer3">
 			 <img class="email" src="@/assets/email.png">	<a class="emailtxt"> bitesizedigitalgroup@gmail.com </a>

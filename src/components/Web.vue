@@ -68,7 +68,24 @@
  </div>
 </template>
 <script type="text/javascript">
-	
+		// 	export default{
+	// 	el: 'myTopnav', 
+	// 	data() {
+	// 		return{
+	// 		 isActive: '',
+	// 		}
+ 		
+	// 	},
+	// 	methods:{
+	// 		btnactive(activengaba){
+	// 			this.isActive= 'isActive'
+		
+	// 		},
+	// 		btnclose(close){
+	// 			this.isActive = ''
+	// 		}
+	// 	}
+	// };
 </script>
 <style scoped>
 body{
@@ -159,7 +176,7 @@ hr{
 }
 .pics{
 	background-color: #fff !important;
-	height: 415px;
+	height: 453px;
 
 }
 

@@ -22,8 +22,8 @@
 		<div class="content">
 			 	
 			 <img class="gamelogo" src="@/assets/game.png">
-			
-			 <h1 class="two">Game Development</h1>
+				 <h1 class="one">Game</h1>
+			 <h1 class="two">Development</h1>
 			<p class="three">Your game idea could be the next <br> most addictive  and highest income producing  <br> game in Android and IOS. Let us help you make <br> it a reality.  All we ask in return is a little credit for <br>  helping you build it.</p>
 
 		</div>
@@ -61,6 +61,14 @@ body{
 	margin:0;
 
 }
+.one{
+	font-family: Montserrat;
+	font-size: 50px;
+	color: #fff;
+	float: right;
+	margin-right: 200px;
+	margin-top: 110px;
+}
 .nextleft{
 	transform: rotateY(180deg);
 	float: left;
@@ -89,7 +97,7 @@ body{
 	color: #fff;
 	float: right;
 	margin-right: 200px;
-	margin-top: 200px;
+	margin-top: -20px;
 }
 
 .content{
@@ -167,6 +175,13 @@ body{
 .bitesizelogo{
 	display: none;
 }
+.one{
+	text-align: center;
+	margin-top: -15px;
+	font-size: 30px;
+	margin-left: 20px !important;
+	margin-right: 160px;
+}
 
 .bite{
 	
@@ -195,9 +210,9 @@ body{
 .two{
 	text-align: center;
 	font-size: 30px;
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-top: 20px;
+	margin-left: 30px;
+	margin-right: 100px;
+	margin-top: -20px;
 }
 .three{
 	text-align: center !important;

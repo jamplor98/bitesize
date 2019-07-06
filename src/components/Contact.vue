@@ -2,8 +2,7 @@
 	<div class="maincontent">
 		<div class="topnav">
 			<img class="bitesizelogo" src="@/assets/bitesize.png">
-		 		 <vue-recaptcha sitekey="6LeE-qoUAAAAAJH8K2YJIk-bxzIgcYHTUXFTTBbc"></vue-recaptcha>
-
+		 		
 			 	<div class="menutoggle">
 					<img @click="btnactive(activengaba)" src="@/assets/menu.png">
 				</div>
@@ -33,7 +32,10 @@
 				<input type="text" name="email" placeholder="Email"> <br>
 				<input type="text" name="subject" placeholder="Subject"> <br>
 				<textarea rows="12" col="10" name="message" placeholder="Message"> </textarea>
-				  <vue-recaptcha sitekey="6LeE-qoUAAAAAJH8K2YJIk-bxzIgcYHTUXFTTBbc"></vue-recaptcha>
+				  <vue-recaptcha class="recaptcha" sitekey="6LeE-qoUAAAAAJH8K2YJIk-bxzIgcYHTUXFTTBbc">
+				 	
+				  </vue-recaptcha>
+				  	<button class="btnsend" >Submit</button> 	
   			</div>
 			
 		</div>	
@@ -74,12 +76,20 @@ body{
 	margin:0;
 
 }
+.recaptcha{
+	margin-top: 30px;
+	transform:scale(0.77);
+	-webkit-transform:scale(0.67);
+	transform-origin:0 0;
+	-webkit-transform-origin:0 0;
+}
+
 .btnsend{
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 18px;
+	padding-bottom: 17px;
 	padding-left: 60px;
 	padding-right: 60px;
-	margin-top: 35px;
+	margin-top: -78px;
 	float: right;
 	color: #fff;
 	background-color: #03597A;
@@ -171,6 +181,7 @@ input::placeholder {
 
 }
 .items{
+
 	float:right;
 	margin-top: 30px;
 	margin-right: 80px;
@@ -278,6 +289,8 @@ input::placeholder {
 }
 .btnsend{
 	margin-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 .weblogo{
 	margin-top: 50px;

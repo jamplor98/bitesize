@@ -41,7 +41,7 @@
 							
 								 <carousel-3d>
 								    <slide :index="0" class="carousel">
-								      <img  class="mc" src="@/assets/mobile2.png">
+								      <img  class="mc" src="@/assets/mobile5.png">
 								    </slide>
 								    <slide :index="1" class="carousel ">
 								       <img  class="mc"  src="@/assets/mobile3.png">
@@ -52,7 +52,7 @@
 								    </slide>
 
 								     <slide :index="3" class="carousel">
-								     	  <img   class="mc"src="@/assets/mobile5.png">	
+								     	  <img   class="mc"src="@/assets/mobile2.png">	
 								    </slide>
 							   
 								  </carousel-3d>
@@ -63,7 +63,26 @@
 	
  </div>
 </template>
-<script type="text/javascript"></script>
+<script type="text/javascript">
+		// 	export default{
+	// 	el: 'myTopnav', 
+	// 	data() {
+	// 		return{
+	// 		 isActive: '',
+	// 		}
+ 		
+	// 	},
+	// 	methods:{
+	// 		btnactive(activengaba){
+	// 			this.isActive= 'isActive'
+		
+	// 		},
+	// 		btnclose(close){
+	// 			this.isActive = ''
+	// 		}
+	// 	}
+	// };
+</script>
 <style scoped>
 body{
 	font-family: Montserrat;
@@ -154,7 +173,7 @@ hr{
 }
 .pics{
 	background-color: #fff !important;
-	height: 415px;
+	height: 453px;
 
 }
 
